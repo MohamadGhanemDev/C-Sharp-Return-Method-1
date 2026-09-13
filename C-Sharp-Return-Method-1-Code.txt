@@ -1,0 +1,27 @@
+
+class myClass
+{
+    static void Main()
+    {
+        int1();
+        Console.WriteLine(int1());
+
+        Console.WriteLine( test1("Mhmd", 25) ) ;
+    }
+
+    // static/ int double string boolean ...
+    static int int1()
+    {
+        return 5;
+    }
+
+    static bool test1(string name, int age)
+    {
+        if (name == "mhmd" && age == 25)
+        {
+            return true;
+        }
+            return false;
+    }
+
+}
